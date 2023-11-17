@@ -13,6 +13,9 @@ public class Bill {
         this.time = time;
     }
 
+    public Bill(int id, int quantity, String nameCustomer) {
+    }
+
     public String getNameCustomer() {
         return nameCustomer;
     }
